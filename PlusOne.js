@@ -12,6 +12,7 @@
         digits[i] = 0; //if greater than 9, we will make this value 0 and try to increase 1 in the next index(reverse)
         }
     }
+
     digits.unshift(1);
     return digits;
 };
